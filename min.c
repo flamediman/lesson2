@@ -1,3 +1,6 @@
+#ifndef MY_MIN
+#define MY_MIN
+
 int min(int array[], int size) {
   int result;
 
@@ -12,3 +15,4 @@ int min(int array[], int size) {
   return result;
 }
 
+#endif

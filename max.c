@@ -1,3 +1,6 @@
+#ifndef MY_MAX
+#define MY_MAX
+
 int max(int array[], int size) {
   int result;
   for (int i = 0; i < size; ++i)  {
@@ -10,3 +13,5 @@ int max(int array[], int size) {
 
   return result;
 }
+
+#endif
